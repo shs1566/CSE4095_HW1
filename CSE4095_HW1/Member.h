@@ -15,10 +15,12 @@ private:
 	char mileage[LEN_MILEAGE];
 
 public:
+	/* constructor */
 	Member();
 	Member(const string);
-	Member(const Member&);
+	Member(const Member&);	// copy constructor
 
+	/* operator overloading */
 	Member & operator = (const Member&);
 	bool operator == (const Member&);
 	bool operator != (const Member&);
