@@ -132,5 +132,4 @@ bool Member::Unpack(IOBuffer &buffer) {
 	if (numBytes == -1) return false;
 
 	return true;
-}
-	
+}	
