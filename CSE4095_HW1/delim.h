@@ -41,4 +41,3 @@ inline DelimFieldBuffer :: DelimFieldBuffer
 
 
 #endif
-
