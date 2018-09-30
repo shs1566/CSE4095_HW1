@@ -99,4 +99,3 @@ int BufferFile::WriteHeader ()
 {
 	return Buffer . WriteHeader (File);
 }
-
