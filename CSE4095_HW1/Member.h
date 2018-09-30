@@ -1,5 +1,7 @@
 #include <iostream>
 #include <string>
+#include <vector>
+#include "delim.h"
 
 using namespace std;
 
@@ -25,6 +27,11 @@ public:
 	bool operator == (const Member&);
 	bool operator != (const Member&);
 
+	/* IO stream overloading */
+	friend istream & operator >> (istream &is, Member &m);
+	friend ostream & operator << (ostream &os, Member &m);
+
+	/* member variable update method */
 	void update_id(const string new_id) { id = new_id; }
 	void update_password(const string new_password) { password = new_password; }
 	void update_name(const string new_name) { name = new_name; }
@@ -32,4 +39,10 @@ public:
 	void update_address(const string new_address) { address = new_address; }
 	void update_mileage(const char new_mileage[LEN_MILEAGE]) { memcpy(mileage, new_mileage, LEN_MILEAGE); }
 
+	/* pack & unpack */
+	bool Pack(IOBuffer &buffer) const;
+	bool Unpack(IOBuffer &buffer);
 };
+
+istream & operator >> (istream &is, Member &m);
+ostream & operator << (ostream &os, Member &m);
