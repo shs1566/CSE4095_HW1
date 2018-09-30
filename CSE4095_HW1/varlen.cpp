@@ -101,4 +101,3 @@ int VariableLengthBuffer :: Init ()
 	Clear();
 	return TRUE;
 }
-
