@@ -2,7 +2,7 @@
 ## Programming Project #1
 
 ### 1. Definition and requirement for implementation
-> &nbsp; 본 프로젝트에서는 인터넷 강의의 회원 관리를 위해 회원 정보와 강의 수강 내역에 관한 정보를 처리하고 유지하는 정보 시스템을 구축한다.
+- &nbsp; 본 프로젝트에서는 인터넷 강의의 회원 관리를 위해 회원 정보와 강의 수강 내역에 관한 정보를 처리하고 유지하는 정보 시스템을 구축한다.
 
 <br>
 
@@ -26,7 +26,7 @@
 <br>  <br>  
 
 ### 1.2 Adding methods to basic classes
-&nbsp; 입력 스트림에서 객체를 읽고 출력 스트림으로 형식화 된 객체를 내보내기 위해 클래스에 함수
+- &nbsp; 입력 스트림에서 객체를 읽고 출력 스트림으로 형식화 된 객체를 내보내기 위해 클래스에 함수
 를 추가한다.
 <br>
 
@@ -50,7 +50,7 @@
 <br>  <br>  
 
 ### 1.3 Using IOBuffer
-&nbsp; IOBuffer를 사용하여 파일로부터 객체를 메모리에 적재하고 파일에 레코드
+- &nbsp; IOBuffer를 사용하여 파일로부터 객체를 메모리에 적재하고 파일에 레코드
 로써 객체를 저장하는 함수를 추가한다.
 
 <br>
@@ -58,11 +58,11 @@
 > 1) &nbsp; 클래스 Member에 Pack과 Unpack 함수를 추가하라. 회원 레코드의 파일을 생성하기 위해 교
 재에 수록된 클래스 BufferFile을 사용한다. 또한 IOBuffer 클래스에 의해 제공되는 버퍼 타입을
 사용하여 이 함수를 테스트 하는 프로그램을 구현하라
-- &nbsp; 1.1.4에서 작성한 데이터를 읽고 Pack 함수를 사용하여 fileOfMember.dat 파일을 작성
+  - &nbsp; 1.1.4에서 작성한 데이터를 읽고 Pack 함수를 사용하여 fileOfMember.dat 파일을 작성
 한 후, 작성 된 fileOfMember.dat 파일에서 Unpack 함수를 사용하여 저장된 레코드들을
 읽은 뒤 표준 출력으로 출력하도록 한다. 
 
-- &nbsp; 테스트 프로그램의 이름은 MemberTest로 할 것. 테스트 프로그램의 실행 후
+  - &nbsp; 테스트 프로그램의 이름은 MemberTest로 할 것. 테스트 프로그램의 실행 후
 fileOfMember.dat 파일이 생성되어야 하며 입력되는 데이터 파일의 모든 레코드를 저장하
 여야 한다. 다만 Unpack을 테스트하기 위해 표준 출력으로 출력되는 레코드들은 앞의 10
 개만 출력하도록 한다.
@@ -73,9 +73,9 @@ fileOfMember.dat 파일이 생성되어야 하며 입력되는 데이터 파일�
 에 수록된 클래스 BufferFile을 사용한다. 또한 IOBuffer 클래스에 의해 제공되는 버퍼 타입을 사
 용하여 이 함수를 테스트 하는 프로그램을 구현하라.
 
-- &nbsp; 1.1.4에서 작성한 데이터를 읽고 Pack 함수를 사용하여 fileOfLecture.dat 파일을 작성한 후, 작성 된 fileOfLecture.dat 파일에서 Unpack 함수를 사용하여 저장된 레코드들을 읽은 뒤 표준 출력으로 출력하도록 한다. 
+  - &nbsp; 1.1.4에서 작성한 데이터를 읽고 Pack 함수를 사용하여 fileOfLecture.dat 파일을 작성한 후, 작성 된 fileOfLecture.dat 파일에서 Unpack 함수를 사용하여 저장된 레코드들을 읽은 뒤 표준 출력으로 출력하도록 한다. 
 
-- &nbsp; 테스트 프로그램의 이름은 LectureTest로 할 것. 테스트 프로그램의 실행 후
+  - &nbsp; 테스트 프로그램의 이름은 LectureTest로 할 것. 테스트 프로그램의 실행 후
 fileOfLecture.dat 파일이 생성되어야 하며 입력되는 데이터 파일의 모든 레코드를 저장하
 여야 한다. 다만 Unpack을 테스트하기 위해 표준 출력으로 출력되는 레코드들은 앞의 10
 개만 출력하도록 한다.
@@ -86,11 +86,11 @@ fileOfLecture.dat 파일이 생성되어야 하며 입력되는 데이터 파일
 재에 수록된 클래스 BufferFile을 사용한다. 또한 IOBuffer 클래스에 의해 제공되는 버퍼 타입을
 사용하여 이 함수를 테스트 하는 프로그램을 구현하라
 
-- &nbsp; 1.1.4에서 작성한 데이터를 읽고 Pack 함수를 사용하여 fileOfLecture.dat 파일을 작성
+  - &nbsp; 1.1.4에서 작성한 데이터를 읽고 Pack 함수를 사용하여 fileOfLecture.dat 파일을 작성
 한 후, 작성 된 fileOfLecture.dat 파일에서 Unpack 함수를 사용하여 저장된 레코드들을 읽
 은 뒤 표준 출력으로 출력하도록 한다.
 
-- &nbsp; 테스트 프로그램의 이름은 LectureTest로 할 것. 테스트 프로그램의 실행 후
+  - &nbsp; 테스트 프로그램의 이름은 LectureTest로 할 것. 테스트 프로그램의 실행 후
 fileOfLecture.dat 파일이 생성되어야 하며 입력되는 데이터 파일의 모든 레코드를 저장하
 여야 한다. 다만 Unpack을 테스트하기 위해 표준 출력으로 출력되는 레코드들은 앞의 10
 개만 출력하도록 한다.
