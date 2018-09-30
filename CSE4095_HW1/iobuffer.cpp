@@ -79,4 +79,3 @@ int IOBuffer::WriteHeader (ostream & stream) const
 	if (! stream . good ()) return -1;
 	return headerSize;
 }
-
