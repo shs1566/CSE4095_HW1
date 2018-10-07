@@ -98,11 +98,11 @@ bool Lecture::Pack(IOBuffer &buffer) const {
 	if (numBytes == -1) return false;
 	numBytes = buffer.Pack(&level);
 	if (numBytes == -1) return false;
-	numBytes = buffer.Pack(to_string(price).c_str);
+	numBytes = buffer.Pack(to_string(price).c_str());
 	if (numBytes == -1) return false;
 	numBytes = buffer.Pack(&extension);
 	if (numBytes == -1) return false;
-	numBytes = buffer.Pack(to_string(due_date).c_str);
+	numBytes = buffer.Pack(to_string(due_date).c_str());
 	if (numBytes == -1) return false;
 	numBytes = buffer.Pack(name_of_teacher.c_str());
 	if (numBytes == -1) return false;

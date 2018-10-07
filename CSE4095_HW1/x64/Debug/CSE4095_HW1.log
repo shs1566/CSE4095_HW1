@@ -1,2 +1,6 @@
-﻿  CSE4095_HW1.vcxproj -> C:\Users\SON\Desktop\7학기\파일처리\프로젝트\CSE4095_HW1\x64\Debug\CSE4095_HW1.exe
+﻿  main.cpp
+c:\users\son\desktop\7학기\파일처리\프로젝트\cse4095_hw1\cse4095_hw1\recfile.h(22): warning C5037: 'RecordFile<RecType>::Read': 클래스 템플릿 멤버의 확장 정의에는 기본 인수가 포함될 수 없습니다.
+c:\users\son\desktop\7학기\파일처리\프로젝트\cse4095_hw1\cse4095_hw1\recfile.h(33): warning C5037: 'RecordFile<RecType>::Write': 클래스 템플릿 멤버의 확장 정의에는 기본 인수가 포함될 수 없습니다.
+c:\users\son\desktop\7학기\파일처리\프로젝트\cse4095_hw1\cse4095_hw1\recfile.h(42): warning C5037: 'RecordFile<RecType>::Append': 클래스 템플릿 멤버의 확장 정의에는 기본 인수가 포함될 수 없습니다.
+  CSE4095_HW1.vcxproj -> C:\Users\SON\Desktop\7학기\파일처리\프로젝트\CSE4095_HW1\x64\Debug\CSE4095_HW1.exe
   CSE4095_HW1.vcxproj -> C:\Users\SON\Desktop\7학기\파일처리\프로젝트\CSE4095_HW1\x64\Debug\CSE4095_HW1.pdb (Partial PDB)

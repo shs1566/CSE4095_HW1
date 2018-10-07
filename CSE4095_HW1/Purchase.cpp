@@ -83,7 +83,7 @@ bool Purchase::Pack(IOBuffer &buffer) const {
 	if (numBytes == -1) return false;
 	numBytes = buffer.Pack(member_id.c_str());
 	if (numBytes == -1) return false;
-	numBytes = buffer.Pack(mileage.c_str);
+	numBytes = buffer.Pack(mileage.c_str());
 	if (numBytes == -1) return false;
 
 	return true;
