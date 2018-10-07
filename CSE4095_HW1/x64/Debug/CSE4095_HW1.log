@@ -2,5 +2,31 @@
 c:\users\son\desktop\7학기\파일처리\프로젝트\cse4095_hw1\cse4095_hw1\recfile.h(22): warning C5037: 'RecordFile<RecType>::Read': 클래스 템플릿 멤버의 확장 정의에는 기본 인수가 포함될 수 없습니다.
 c:\users\son\desktop\7학기\파일처리\프로젝트\cse4095_hw1\cse4095_hw1\recfile.h(33): warning C5037: 'RecordFile<RecType>::Write': 클래스 템플릿 멤버의 확장 정의에는 기본 인수가 포함될 수 없습니다.
 c:\users\son\desktop\7학기\파일처리\프로젝트\cse4095_hw1\cse4095_hw1\recfile.h(42): warning C5037: 'RecordFile<RecType>::Append': 클래스 템플릿 멤버의 확장 정의에는 기본 인수가 포함될 수 없습니다.
+c:\users\son\desktop\7학기\파일처리\프로젝트\cse4095_hw1\cse4095_hw1\main.cpp(812): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\son\desktop\7학기\파일처리\프로젝트\cse4095_hw1\cse4095_hw1\main.cpp(813): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\son\desktop\7학기\파일처리\프로젝트\cse4095_hw1\cse4095_hw1\main.cpp(853): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\son\desktop\7학기\파일처리\프로젝트\cse4095_hw1\cse4095_hw1\main.cpp(854): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\son\desktop\7학기\파일처리\프로젝트\cse4095_hw1\cse4095_hw1\main.cpp(893): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\son\desktop\7학기\파일처리\프로젝트\cse4095_hw1\cse4095_hw1\main.cpp(894): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\son\desktop\7학기\파일처리\프로젝트\cse4095_hw1\cse4095_hw1\main.cpp(933): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\son\desktop\7학기\파일처리\프로젝트\cse4095_hw1\cse4095_hw1\main.cpp(934): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\son\desktop\7학기\파일처리\프로젝트\cse4095_hw1\cse4095_hw1\main.cpp(1038): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\son\desktop\7학기\파일처리\프로젝트\cse4095_hw1\cse4095_hw1\main.cpp(1039): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\son\desktop\7학기\파일처리\프로젝트\cse4095_hw1\cse4095_hw1\main.cpp(1098): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\son\desktop\7학기\파일처리\프로젝트\cse4095_hw1\cse4095_hw1\main.cpp(1099): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\son\desktop\7학기\파일처리\프로젝트\cse4095_hw1\cse4095_hw1\main.cpp(1156): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\son\desktop\7학기\파일처리\프로젝트\cse4095_hw1\cse4095_hw1\main.cpp(1157): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\son\desktop\7학기\파일처리\프로젝트\cse4095_hw1\cse4095_hw1\main.cpp(1199): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\son\desktop\7학기\파일처리\프로젝트\cse4095_hw1\cse4095_hw1\main.cpp(1200): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\son\desktop\7학기\파일처리\프로젝트\cse4095_hw1\cse4095_hw1\main.cpp(1242): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\son\desktop\7학기\파일처리\프로젝트\cse4095_hw1\cse4095_hw1\main.cpp(1243): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\son\desktop\7학기\파일처리\프로젝트\cse4095_hw1\cse4095_hw1\main.cpp(1359): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\son\desktop\7학기\파일처리\프로젝트\cse4095_hw1\cse4095_hw1\main.cpp(1360): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\son\desktop\7학기\파일처리\프로젝트\cse4095_hw1\cse4095_hw1\main.cpp(967): warning C4101: 'len' :참조되지 않은 지역 변수입니다.
+c:\users\son\desktop\7학기\파일처리\프로젝트\cse4095_hw1\cse4095_hw1\main.cpp(967): warning C4101: 'new_len' :참조되지 않은 지역 변수입니다.
+c:\users\son\desktop\7학기\파일처리\프로젝트\cse4095_hw1\cse4095_hw1\main.cpp(1319): warning C4101: 'len' :참조되지 않은 지역 변수입니다.
+c:\users\son\desktop\7학기\파일처리\프로젝트\cse4095_hw1\cse4095_hw1\main.cpp(1319): warning C4101: 'new_len' :참조되지 않은 지역 변수입니다.
+c:\users\son\desktop\7학기\파일처리\프로젝트\cse4095_hw1\cse4095_hw1\main.cpp(1414): warning C4101: 'len' :참조되지 않은 지역 변수입니다.
+c:\users\son\desktop\7학기\파일처리\프로젝트\cse4095_hw1\cse4095_hw1\main.cpp(1414): warning C4101: 'new_len' :참조되지 않은 지역 변수입니다.
   CSE4095_HW1.vcxproj -> C:\Users\SON\Desktop\7학기\파일처리\프로젝트\CSE4095_HW1\x64\Debug\CSE4095_HW1.exe
   CSE4095_HW1.vcxproj -> C:\Users\SON\Desktop\7학기\파일처리\프로젝트\CSE4095_HW1\x64\Debug\CSE4095_HW1.pdb (Partial PDB)

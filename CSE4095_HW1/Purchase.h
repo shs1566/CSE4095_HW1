@@ -36,6 +36,10 @@ public:
 	void update_member_id(const string new_id) { member_id = new_id; }
 	void update_mileage(const char *new_mileage) { memcpy(mileage, new_mileage, LEN_MILEAGE); }
 
+	char *get_purchase_id() { return purchase_id; }
+	char *get_lecture_id() { return lecture_id; }
+	string get_member_id() { return member_id; }
+
 	/* pack & unpack */
 	bool Pack(IOBuffer &buffer) const;
 	bool Unpack(IOBuffer &buffer);

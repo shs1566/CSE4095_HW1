@@ -22,11 +22,11 @@ Purchase & Purchase::operator = (const Purchase &p) {
 }
 
 bool Purchase::operator == (const Purchase &p) {
-	return !strcmp(purchase_id, p.purchase_id);
+	return !strncmp(purchase_id, p.purchase_id, LEN_PURCHASE_ID);
 }
 
 bool Purchase::operator != (const Purchase &p) {
-	return strcmp(purchase_id, p.purchase_id);
+	return strncmp(purchase_id, p.purchase_id, LEN_PURCHASE_ID);
 }
 
 istream & operator >> (istream &is, Purchase &p) {

@@ -41,6 +41,15 @@ public:
 	void update_name_of_teacher(const string new_name) { name_of_teacher = new_name; }
 	void update_textbook(const string new_textbook) { textbook = new_textbook; }
 
+	char *get_lecture_id() { return lecture_id; }
+	string get_subject() { return subject; }
+	char get_level() { return level; }
+	int get_price() { return price; }
+	char get_extension() { return extension; }
+	int get_due_date() { return due_date; }
+	string get_name_of_teacher() { return name_of_teacher; }
+	string get_textbook() { return textbook; }
+
 	/* pack & unpack */
 	bool Pack(IOBuffer &buffer) const;
 	bool Unpack(IOBuffer &buffer);

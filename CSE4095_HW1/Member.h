@@ -39,6 +39,12 @@ public:
 	void update_address(const string new_address) { address = new_address; }
 	void update_mileage(const char new_mileage[LEN_MILEAGE]) { memcpy(mileage, new_mileage, LEN_MILEAGE); }
 
+	string get_id() { return id; }
+	string get_password() { return password; }
+	string get_name() { return name; }
+	string get_phoneNumber() { return phoneNumber; }
+	string get_address() { return address; }
+	char *get_mileage() { return mileage; }
 	/* pack & unpack */
 	bool Pack(IOBuffer &buffer) const;
 	bool Unpack(IOBuffer &buffer);

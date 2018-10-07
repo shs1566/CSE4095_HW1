@@ -30,11 +30,11 @@ Lecture & Lecture::operator = (const Lecture &l) {
 }
 
 bool Lecture::operator == (const Lecture &l) {
-	return !strcmp(lecture_id, l.lecture_id);
+	return !strncmp(lecture_id, l.lecture_id, LEN_LECTURE_ID);
 }
 
 bool Lecture::operator != (const Lecture &l) {
-	return strcmp(lecture_id, l.lecture_id);
+	return strncmp(lecture_id, l.lecture_id, LEN_LECTURE_ID);
 }
 
 istream & operator >> (istream &is, Lecture &l) {
