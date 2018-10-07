@@ -97,7 +97,7 @@ fileOfLecture.dat 파일이 생성되어야 하며 입력되는 데이터 파일
 
 <br>  <br>  
 
-### 1.3 Deleting and Updating Records
+### 1.4 Deleting and Updating Records
 &nbsp;
 파일로부터 레코드를 삭제하고 파일에 있는 레코드를 수정할 수 있는 함수를 추가한다
 
@@ -107,6 +107,9 @@ fileOfLecture.dat 파일이 생성되어야 하며 입력되는 데이터 파일
 수정을 지원하는 회원, 강의, 구매 레코드 파일을 생성하라. 또한 각각의 파일에서 회원, 강의, 구
 매 레코드의 검색, 삽입, 삭제, 수정을 지원할 수 있는 대화식 프로그램을 작성하라. 수정은 키(ID)
 를 제외한 모든 필드가 가능하며, 모든 경우에서 참조 무결성을 유지해야 한다.
+
+[연습문제](https://github.com/shs1566/CSE4095_HW1/blob/master/CSE4095_HW1_img0.png)
+
 > - &nbsp; 참조 무결성은, 예를 들어, 회원 레코드가 삭제되면 그 회원이 구매한 기록도
 모두 같이 삭제 될 수 있도록 하는 것 등을 말한다.
 > - &nbsp; 각각의 레코드 파일의 이름은 1.3에서와 같이 fileOfMember.dat, fileOfLecture.dat,
